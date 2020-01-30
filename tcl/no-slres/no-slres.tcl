@@ -43,6 +43,7 @@ bind pub  -|- !status           no:noslres:status
 bind pub  -|- !resstat          no:noslres:status
 bind pub  -|- !killstat         no:noslres:status
 bind part -|- *                 no:noslres:parted
+bind sign -|- *                 no:noslres:parted
 bind pubm -|- {*SITE*IS*UP*}    no:noslres:invite
 
 
